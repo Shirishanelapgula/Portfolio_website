@@ -23,10 +23,11 @@ function Home() {
       <Header />
       {/* Main */}
       <MainContainer isDarkMode={isDarkMode}>
-        <HeroSection>
+        {/* Hero Section */}
+        <HeroSection id="hero">
           <InfoContainer isDarkMode={isDarkMode}>
-            <PersonName>Hi, I'm Franklin👋</PersonName>
-            <RoleType>Frontend Engineer</RoleType>
+            <PersonName>Hi, I'm Durga Potnuru👋</PersonName>
+            <RoleType>Full Stack Developer</RoleType>
             <RoleNote>
               Experienced in building functional web applications and designing
               accessible digital products.

@@ -1,8 +1,10 @@
-import { useContext } from "react";
+import { useState, useContext } from "react";
 import themeContext from "../../themeContext/themeContext";
 
 import { FiMoon } from "react-icons/fi";
 import { ImSun } from "react-icons/im";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { VscChromeClose } from "react-icons/vsc";
 import {
   WebsiteHeader,
   Nav,
@@ -12,11 +14,18 @@ import {
   ResumeBtn,
   NavLink,
   DarkModeBtn,
-  DarkModeBtnLogo,
+  HamburgerMenu,
+  Bar,
 } from "./styledComponents";
 
 function Header() {
   const { isDarkMode, onToggleDarkMode } = useContext(themeContext);
+
+  const [isMenuActive, setToggleMenu] = useState(false);
+
+  const onToggleMenuActive = () => {
+    setToggleMenu((prevState) => !prevState);
+  };
 
   return (
     <WebsiteHeader isDarkMode={isDarkMode}>
@@ -51,11 +60,7 @@ function Header() {
           </NavLink>
           <NavLink>
             <ResumeBtn type="button" isDarkMode={isDarkMode}>
-              <a
-                href="https://s3-ap-south-1.amazonaws.com/nkb-backend-ccbp-media-static/ccbp_prod/media/resume_generated/Durga_2023-06-23-231618.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="#/" target="_blank" rel="noreferrer">
                 Resume
               </a>
             </ResumeBtn>
@@ -69,6 +74,20 @@ function Header() {
             {isDarkMode ? <ImSun /> : <FiMoon />}
           </DarkModeBtn>
         </NavLinksContainer>
+        {/* Mobile Hamburger Menu */}
+
+        <HamburgerMenu isDarkMode={isDarkMode} onClick={onToggleMenuActive}>
+          {isMenuActive && (
+            <Bar>
+              <VscChromeClose />
+            </Bar>
+          )}
+          {!isMenuActive && (
+            <Bar>
+              <RxHamburgerMenu />
+            </Bar>
+          )}
+        </HamburgerMenu>
       </Nav>
     </WebsiteHeader>
   );
