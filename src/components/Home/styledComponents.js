@@ -1,5 +1,9 @@
 import { styled } from "styled-components";
 
+export const AppContainer = styled.div`
+  background-color: ${(props) => (props.isDarkMode ? "#0a0a1f" : "#f4f4f4")};
+`;
+
 export const MainContainer = styled.main`
   background-color: ${(props) => (props.isDarkMode ? "#0a0a1f" : "#f0f0f0")};
   clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
@@ -16,6 +20,7 @@ export const HeroSection = styled.section`
   display: flex;
   align-items: center;
   padding: 220px 80px 0px;
+
   @media (max-width: 908px) {
     padding: 220px 50px 0px !important;
   }
@@ -30,7 +35,7 @@ export const HeroSection = styled.section`
   }
   &::after {
     content: "";
-    border: 1px solid green;
+
     position: absolute;
     top: 0;
     right: -450px;

@@ -86,6 +86,7 @@ export const NavLink = styled.li`
   }
   &:hover {
     color: #00d46a;
+    font-size: 18px;
   }
 `;
 
@@ -105,6 +106,7 @@ export const ResumeBtn = styled.button`
   &:hover {
     background-color: #00d46a;
     color: #f6f6f6;
+    padding: 14px 24px;
     transition: 0.9s;
   }
 `;

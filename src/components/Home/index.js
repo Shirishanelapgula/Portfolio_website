@@ -2,10 +2,15 @@ import { useContext } from "react";
 import themeContext from "../../themeContext/themeContext";
 
 import Header from "../Header";
+import AboutSection from "../AboutSection";
+import ProjectsSection from "../ProjectsSection";
+import ContactSection from "../ContactSection";
+import Footer from "../Footer";
 
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 import {
+  AppContainer,
   HeroSection,
   InfoContainer,
   MainContainer,
@@ -19,7 +24,7 @@ function Home() {
   const { isDarkMode } = useContext(themeContext);
 
   return (
-    <>
+    <AppContainer isDarkMode={isDarkMode}>
       <Header />
       {/* Main */}
       <MainContainer isDarkMode={isDarkMode}>
@@ -38,7 +43,15 @@ function Home() {
           </InfoContainer>
         </HeroSection>
       </MainContainer>
-    </>
+      {/* AboutSection */}
+      <AboutSection />
+      {/* ProjectsSection */}
+      <ProjectsSection />
+      {/* ContactSection */}
+      <ContactSection />
+      {/* Footer */}
+      <Footer />
+    </AppContainer>
   );
 }
 
