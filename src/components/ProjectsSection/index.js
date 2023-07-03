@@ -1,3 +1,5 @@
+import myProjectsList from "./myProjectsList";
+
 import {
   ProjectsSectionContainer,
   ProjectContainer,
@@ -6,7 +8,10 @@ import {
   TextSubNote,
   FilterContainer,
   FilterButton,
+  Projects,
 } from "./styledComponents";
+
+import ProjectCard from "../ProjectCard";
 
 function ProjectsSection() {
   return (
@@ -23,6 +28,11 @@ function ProjectsSection() {
             <FilterButton type="button">Software</FilterButton>
             <FilterButton type="button">Blockchain</FilterButton>
           </FilterContainer>
+          <Projects>
+            {myProjectsList.map((project) => (
+              <ProjectCard key={project.id} projectDeatils={project} />
+            ))}
+          </Projects>
         </ProjectContainer>
       </ProjectContainer>
     </ProjectsSectionContainer>

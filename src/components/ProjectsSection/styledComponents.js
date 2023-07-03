@@ -59,3 +59,19 @@ export const FilterButton = styled.button`
     border: 1.5px solid #47b147;
   }
 `;
+
+export const Projects = styled.ul`
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  list-style: none;
+  padding: 0;
+
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  @media (max-width: 455px) {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+`;
