@@ -14,7 +14,7 @@ export const ProjectCardContainer = styled.div`
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-  background-image: ${(props) => `url(${props.backgroundImage})`};
+  background-image: ${(props) => `url(${props.projectImage})`};
   > div {
     display: none;
   }
@@ -22,7 +22,8 @@ export const ProjectCardContainer = styled.div`
     box-shadow: inset 0 100px 1000px 60px #111;
     border: 1.5px solid #47b147;
     min-height: 290px;
-    
+    margin: -15px;
+
     > div {
       display: flex;
     }

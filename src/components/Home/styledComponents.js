@@ -66,7 +66,7 @@ export const InfoContainer = styled.div`
 
 export const PersonName = styled.span`
   font-family: "Roboto Mono", monospace;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 5px;
   line-height: 23.04px;
   @media (max-width: 600px) and (min-width: 350px) {
@@ -115,6 +115,8 @@ export const RoleNote = styled.p`
 `;
 
 export const MeAnchorLink = styled.a`
+  display: flex;
+  align-items: center;
   color: #00d46a !important;
   font-family: "Roboto Mono", monospace;
   font-size: 0.85rem;
@@ -127,5 +129,9 @@ export const MeAnchorLink = styled.a`
   }
   @media (max-width: 349px) {
     font-size: 0.6rem !important;
+  }
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 5px 15px #0ab635;
   }
 `;

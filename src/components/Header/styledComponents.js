@@ -108,6 +108,9 @@ export const ResumeBtn = styled.button`
     color: #f6f6f6;
     padding: 14px 24px;
     transition: 0.9s;
+
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px #0ab635;
   }
 `;
 

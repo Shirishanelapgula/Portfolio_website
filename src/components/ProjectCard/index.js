@@ -10,10 +10,10 @@ import {
 
 function ProjectCard(props) {
   const { projectDeatils } = props;
-  const { title, description, tags, links, backgroundImage } = projectDeatils;
-  console.log(title);
+  const { title, description, tags, links, projectImage } = projectDeatils;
+
   return (
-    <ProjectCardContainer backgroundImage={backgroundImage}>
+    <ProjectCardContainer projectImage={projectImage}>
       <ProjectDetails>
         <ProjectText>
           <h3>{title}</h3>

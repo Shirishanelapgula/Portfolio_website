@@ -106,4 +106,9 @@ export const SubmitButton = styled.button`
   letter-spacing: 1.5px;
   padding: 12px 0;
   width: 100%;
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px #0ab635;
+    transition: 0.3s;
+  }
 `;

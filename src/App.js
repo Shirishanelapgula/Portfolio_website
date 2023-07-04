@@ -10,7 +10,6 @@ function App() {
 
   const localStorageValue = JSON.parse(localStorage.getItem("isDarkMode"));
 
-  console.log(localStorageValue);
   if (localStorageValue !== null && localStorageValue !== isDarkMode) {
     setToggleDarkMode(localStorageValue);
   }

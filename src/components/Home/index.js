@@ -7,7 +7,7 @@ import ProjectsSection from "../ProjectsSection";
 import ContactSection from "../ContactSection";
 import Footer from "../Footer";
 
-import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 import {
   AppContainer,
@@ -38,7 +38,12 @@ function Home() {
               accessible digital products.
             </RoleNote>
             <MeAnchorLink href="#about">
-              See Why You should Work With Me <FaLongArrowAltRight />
+              See Why You should Work With Me{" "}
+              <FaArrowCircleRight
+                style={{
+                  marginLeft: "7px",
+                }}
+              />
             </MeAnchorLink>
           </InfoContainer>
         </HeroSection>

@@ -12,7 +12,7 @@ const myProjectsList = [
       github: "https://github.com/vijaypotnuru/Insta-Share",
       live: "https://durgainstashare.ccbp.tech/",
     },
-    backgroundImage:
+    projectImage:
       "https://res.cloudinary.com/dmlhm8dwi/image/upload/v1688371629/Screenshot_2023-07-03_133613_jnfyzm.png",
   },
   {
@@ -26,7 +26,7 @@ const myProjectsList = [
       github: "https://github.com/vijaypotnuru/Nxt-Trendz",
       live: "https://durganxttrendz1.ccbp.tech/",
     },
-    backgroundImage:
+    projectImage:
       "https://res.cloudinary.com/dmlhm8dwi/image/upload/v1688470332/FireShot_Capture_001_-_Nxt_Trendz_-_durganxttrendz1.ccbp.tech_h6frgo.png",
   },
   {
@@ -40,7 +40,7 @@ const myProjectsList = [
       github: "https://github.com/vijaypotnuru/Todo-Lists-Application",
       live: "https://durgatodoweb.ccbp.tech/",
     },
-    backgroundImage:
+    projectImage:
       "https://res.cloudinary.com/dmlhm8dwi/image/upload/v1688471330/FireShot_Capture_002_-_Todo_List_-_Application_-_durgatodoweb.ccbp.tech_oul7ct.png",
   },
   {
@@ -53,7 +53,7 @@ const myProjectsList = [
       github: "https://github.com/vijaypotnuru/Food-Much",
       live: "https://durgafoodweb.ccbp.tech/",
     },
-    backgroundImage:
+    projectImage:
       "https://res.cloudinary.com/dmlhm8dwi/image/upload/v1688473160/FireShot_Capture_004_-_Food_Munch_-_durgafoodweb.ccbp.tech_bc8fye.png",
   },
   {
@@ -66,7 +66,7 @@ const myProjectsList = [
       github: "https://github.com",
       live: "https://durgainstashare.ccbp.tech/",
     },
-    backgroundImage:
+    projectImage:
       "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
@@ -79,7 +79,7 @@ const myProjectsList = [
       github: "https://github.com",
       live: "https://durgainstashare.ccbp.tech/",
     },
-    backgroundImage:
+    projectImage:
       "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
@@ -92,7 +92,7 @@ const myProjectsList = [
       github: "https://github.com",
       live: "https://durgainstashare.ccbp.tech/",
     },
-    backgroundImage:
+    projectImage:
       "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
@@ -105,7 +105,7 @@ const myProjectsList = [
       github: "https://github.com",
       live: "https://durgainstashare.ccbp.tech/",
     },
-    backgroundImage:
+    projectImage:
       "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
@@ -118,7 +118,7 @@ const myProjectsList = [
       github: "https://github.com",
       live: "https://durgainstashare.ccbp.tech/",
     },
-    backgroundImage:
+    projectImage:
       "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ];

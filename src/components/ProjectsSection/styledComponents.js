@@ -1,8 +1,8 @@
 import { styled } from "styled-components";
 
 export const ProjectsSectionContainer = styled.section`
-  background-color: #f1f1f1;
-  color: #333;
+  background-color: ${(props) => (props.isDarkMode ? "#010116" : "#f1f1f1")};
+  color: ${(props) => (props.isDarkMode ? "#f6f6f6" : "#333")};
   position: relative;
   padding: 60px 0;
   text-align: center;
@@ -43,20 +43,25 @@ export const FilterContainer = styled.div`
   justify-content: center;
   width: 100%;
   margin: 20px 0;
+  > button {
+    color: ${(props) => (props.isDarkMode ? "#f6f6f6" : "#333")};
+  }
 `;
 
 export const FilterButton = styled.button`
-  background: transparent;
+  background: ${(props) => (props.isactive ? "#00d46a" : "transparent")};
   border: none;
+  border-radius: 5px;
   outline: none;
   cursor: pointer;
-  color: #333;
+  color: ${(props) => (props.isactive ? "#f6f6f6" : "")};
   margin: 0 8px;
   padding: 10px 14px;
   text-transform: uppercase;
   transition: all 0.3s ease-in;
   &:hover {
     border: 1.5px solid #47b147;
+    padding: 12px 16px;
   }
 `;
 
@@ -73,5 +78,34 @@ export const Projects = styled.ul`
   }
   @media (max-width: 455px) {
     grid-template-columns: repeat(1, 1fr) !important;
+  }
+`;
+
+export const ProjectsBtn = styled.button`
+  background-color: #111;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 5px;
+  color: #f1f1f1;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  height: 40px;
+  width: 140px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  > span {
+
+    transition: all 0.5s ease;
+  }
+
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px #0ab635;
   }
 `;
