@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const ProjectCardContainer = styled.div`
-  background: transparent;
+  flex-grow: 1;
   border-radius: 5px;
-  color: #f6f6f6;
+  color: #f2f2f2;
   cursor: pointer;
   padding: 1rem;
   background-position: center;
@@ -14,19 +14,28 @@ export const ProjectCardContainer = styled.div`
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-  :nth-child(1) {
-    background-image: ${(props) => `url(${props.backgroundImage})`};
+  background-image: ${(props) => `url(${props.backgroundImage})`};
+  > div {
+    display: none;
   }
-  :hover {
+  &:hover {
     box-shadow: inset 0 100px 1000px 60px #111;
     border: 1.5px solid #47b147;
+    min-height: 290px;
+    
+    > div {
+      display: flex;
+    }
+  }
+
+  @media (max-width: 600px) and (min-width: 350px) {
+    max-height: 240px !important;
   }
 `;
 
 export const ProjectDetails = styled.div`
   display: flex;
   justify-content: space-between;
-
   position: relative;
   transition: all 0.4s ease-in-out;
 `;
@@ -38,11 +47,11 @@ export const ProjectText = styled.div`
   top: 30px;
   text-align: left;
   > h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   > p {
     font-family: "Roboto Mono", monospace;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     margin: 10px 0;
     line-height: 1.4;
   }
@@ -59,7 +68,7 @@ export const ProjectText = styled.div`
 
 export const Stack = styled.span`
   color: #47b147;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: bold;
   text-transform: uppercase;
 `;
@@ -69,4 +78,5 @@ export const ProjectLinks = styled.div`
   flex-direction: column;
   padding: 5px;
   color: #f2f2f2;
+  font-size: 22px;
 `;

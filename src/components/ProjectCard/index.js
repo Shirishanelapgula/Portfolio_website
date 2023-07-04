@@ -10,8 +10,7 @@ import {
 
 function ProjectCard(props) {
   const { projectDeatils } = props;
-  const { title, category, description, tags, links, backgroundImage } =
-    projectDeatils;
+  const { title, description, tags, links, backgroundImage } = projectDeatils;
   console.log(title);
   return (
     <ProjectCardContainer backgroundImage={backgroundImage}>
@@ -19,13 +18,13 @@ function ProjectCard(props) {
         <ProjectText>
           <h3>{title}</h3>
           <p>{description}</p>
-          <Stack>{tags[0]}</Stack>
+          <Stack>{tags.join(", ")}</Stack>
         </ProjectText>
         <ProjectLinks>
           <a href={links.live} target="_blank" rel="noopener noreferrer">
             <FaLink />
           </a>
-          <a href={links.live} target="_blank" rel="noopener noreferrer">
+          <a href={links.github} target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
         </ProjectLinks>
