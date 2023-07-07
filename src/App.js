@@ -1,4 +1,4 @@
-import "./App.css";
+import { GlobalStyle } from "./styledComponents";
 
 import themeContext from "./themeContext/themeContext";
 import { useState } from "react";
@@ -23,6 +23,7 @@ function App() {
     <themeContext.Provider
       value={{ isDarkMode, onToggleDarkMode: toggleDarkMode }}
     >
+      <GlobalStyle isDarkMode={isDarkMode} />
       <Home />
     </themeContext.Provider>
   );

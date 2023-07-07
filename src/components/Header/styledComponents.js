@@ -23,9 +23,11 @@ export const Nav = styled.nav`
   font-weight: bold;
   transition: 0.9s;
   transition: all 0.3s ease-in;
+  &:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+  }
   @media (max-width: 908px) {
     padding: 0 50px !important;
-    margin-right: 0px !important;
   }
   @media (max-width: 700px) {
     justify-content: space-between;
@@ -33,6 +35,9 @@ export const Nav = styled.nav`
 
   @media (max-width: 600px) and (min-width: 350px) {
     padding: 0 30px !important;
+  }
+  @media (max-width: 349px) {
+    padding: 0 25px !important;
   }
 `;
 

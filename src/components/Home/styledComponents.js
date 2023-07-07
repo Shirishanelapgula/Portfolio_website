@@ -1,8 +1,6 @@
 import { styled } from "styled-components";
 
-export const AppContainer = styled.div`
-  background-color: ${(props) => (props.isDarkMode ? "#0a0a1f" : "#f4f4f4")};
-`;
+
 
 export const MainContainer = styled.main`
   background-color: ${(props) => (props.isDarkMode ? "#0a0a1f" : "#f0f0f0")};

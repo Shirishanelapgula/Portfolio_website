@@ -24,7 +24,7 @@ function Home() {
   const { isDarkMode } = useContext(themeContext);
 
   return (
-    <AppContainer isDarkMode={isDarkMode}>
+    <>
       <Header />
       {/* Main */}
       <MainContainer isDarkMode={isDarkMode}>
@@ -56,7 +56,7 @@ function Home() {
       <ContactSection />
       {/* Footer */}
       <Footer />
-    </AppContainer>
+    </>
   );
 }
 
