@@ -92,8 +92,11 @@ export const BackgroundTitle = styled.h2`
 `;
 export const BackgroundSubtile = styled.h4``;
 
-export const Description = styled.p``;
-
+export const Description = styled.p`
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.3;
+  margin: 10px 0;
+`;
 
 export const TechStackContainer = styled.div`
   position: relative;

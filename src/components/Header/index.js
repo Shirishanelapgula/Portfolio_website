@@ -5,11 +5,13 @@ import { FiMoon } from "react-icons/fi";
 import { ImSun } from "react-icons/im";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { VscChromeClose } from "react-icons/vsc";
+
+import { PiDevToLogoDuotone, PiDevToLogoBold } from "react-icons/pi";
+
 import {
   WebsiteHeader,
   Nav,
   LogoContainer,
-  LogoImage,
   NavLinksContainer,
   ResumeBtn,
   NavLink,
@@ -33,15 +35,11 @@ function Header() {
         <LogoContainer>
           <a href="#hero">
             {isDarkMode ? (
-              <LogoImage
-                src="https://res.cloudinary.com/dmlhm8dwi/image/upload/v1687609753/logo-light_vkos8o.png"
-                alt="Website Logo"
+              <PiDevToLogoDuotone
+                style={{ color: "white", fontSize: "55px" }}
               />
             ) : (
-              <LogoImage
-                src="https://res.cloudinary.com/dmlhm8dwi/image/upload/v1687609776/logo_d8y4kq.png"
-                alt="Website Logo"
-              />
+              <PiDevToLogoBold style={{ color: "#333F", fontSize: "55px" }} />
             )}
           </a>
         </LogoContainer>
@@ -52,9 +50,9 @@ function Header() {
           <NavLink>
             <a href="#projects">PROJECTS</a>
           </NavLink>
-          <NavLink>
+          {/* <NavLink>
             <a href="#blog">BLOG</a>
-          </NavLink>
+          </NavLink> */}
           <NavLink>
             <a href="#contact">CONTACT</a>
           </NavLink>

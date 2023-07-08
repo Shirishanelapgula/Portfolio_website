@@ -6,7 +6,7 @@ import { useState } from "react";
 import Home from "./components/Home";
 
 function App() {
-  const [isDarkMode, setToggleDarkMode] = useState(false);
+  const [isDarkMode, setToggleDarkMode] = useState(true);
 
   const localStorageValue = JSON.parse(localStorage.getItem("isDarkMode"));
 

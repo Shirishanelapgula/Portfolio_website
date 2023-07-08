@@ -1,4 +1,4 @@
-import { useContext, useRef } from "react";
+import { useContext, useRef, useState } from "react";
 
 import emailjs from "@emailjs/browser";
 import themeContext from "../../themeContext/themeContext";
@@ -20,6 +20,8 @@ function ContactSection() {
 
   const { isDarkMode } = useContext(themeContext);
 
+  const [responseMsg, setResponseMsg] = useState("");
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -33,9 +35,19 @@ function ContactSection() {
       .then(
         (result) => {
           console.log(result.text);
+          setResponseMsg("Message sent successfully!");
+
+          setTimeout(() => {
+            setResponseMsg("");
+          }, 5000);
         },
         (error) => {
           console.log(error.text);
+          setResponseMsg("Message failed to send!");
+
+          setTimeout(() => {
+            setResponseMsg("");
+          }, 5000);
         }
       );
     e.target.reset();
@@ -91,6 +103,7 @@ function ContactSection() {
             required
             isDarkMode={isDarkMode}
           />
+          <p>{responseMsg}</p>
           <SubmitButton>SEND MESSAGE</SubmitButton>
         </Form>
       </FormContainer>

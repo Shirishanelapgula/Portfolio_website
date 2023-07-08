@@ -8,9 +8,9 @@ import ContactSection from "../ContactSection";
 import Footer from "../Footer";
 
 import { FaArrowCircleRight } from "react-icons/fa";
+import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 import {
-  AppContainer,
   HeroSection,
   InfoContainer,
   MainContainer,
@@ -18,6 +18,7 @@ import {
   RoleType,
   RoleNote,
   MeAnchorLink,
+  ScrollUp,
 } from "./styledComponents";
 
 function Home() {
@@ -34,8 +35,8 @@ function Home() {
             <PersonName>Hi, I'm Durga Potnuru👋</PersonName>
             <RoleType>Full Stack Developer</RoleType>
             <RoleNote>
-              Experienced in building functional web applications and designing
-              accessible digital products.
+              Experienced full stack developer proficient in creating robust web
+              applications and crafting user-friendly digital solutions.
             </RoleNote>
             <MeAnchorLink href="#about">
               See Why You should Work With Me{" "}
@@ -56,6 +57,13 @@ function Home() {
       <ContactSection />
       {/* Footer */}
       <Footer />
+      <ScrollUp href="#" isDarkMode={isDarkMode}>
+        <MdKeyboardDoubleArrowUp
+          style={{
+            color: isDarkMode ? "#fff" : "#000",
+          }}
+        />
+      </ScrollUp>
     </>
   );
 }

@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const ProjectsSectionContainer = styled.section`
-  background-color: ${(props) => (props.isDarkMode ? "#010149" : "#f1f1f1")};
+  background-color: ${(props) => (props.isDarkMode ? "#010116" : "#f1f1f1")};
   color: ${(props) => (props.isDarkMode ? "#f6f6f6" : "#333")};
   position: relative;
   padding: 60px 0;
@@ -59,6 +59,16 @@ export const FilterButton = styled.button`
   padding: 10px 14px;
   text-transform: uppercase;
   transition: all 0.3s ease-in;
+  @media (max-width: 700px) {
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+    margin: 0 5px !important;
+  }
+  @media (max-width: 349px) {
+    font-size: 10px !important;
+    padding: 5px 6px !important;
+    margin: 0 2px !important;
+  }
   &:hover {
     border: 1.5px solid #47b147;
     padding: 12px 16px;
@@ -100,7 +110,6 @@ export const ProjectsBtn = styled.button`
     align-items: center;
   }
   > span {
-
     transition: all 0.5s ease;
   }
 

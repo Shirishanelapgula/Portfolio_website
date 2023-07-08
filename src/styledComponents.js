@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 body {
-    background-color: ${(props) => (props.isDarkMode ? "#000063" : "#f4f4f4")};
+    background-color: ${(props) => (props.isDarkMode ? "#0a0a1f" : "#f4f4f4")};
     font-family: "Jost", sans-serif;
     width: 100%;
     height: 100%;

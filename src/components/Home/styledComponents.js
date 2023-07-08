@@ -1,9 +1,7 @@
 import { styled } from "styled-components";
 
-
-
 export const MainContainer = styled.main`
-  background-color: ${(props) => (props.isDarkMode ? "#0a0a1f" : "#f0f0f0")};
+  background-color: ${(props) => (props.isDarkMode ? "#0a0a1f" : "#2f8ea9")};
   clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
   background-size: 55px 55px;
   height: 100vh;
@@ -17,13 +15,19 @@ export const MainContainer = styled.main`
 export const HeroSection = styled.section`
   display: flex;
   align-items: center;
-  padding: 220px 80px 0px;
+  padding: 0px 80px 0px;
+  background-repeat: no-repeat;
+
+  background-image: url("https://res.cloudinary.com/dmlhm8dwi/image/upload/v1688822859/dev-ed-wave_zlitla.webp");
+  background-position: right;
+  height: 100vh;
 
   @media (max-width: 908px) {
     padding: 220px 50px 0px !important;
   }
   @media (max-width: 700px) {
     padding: 140px 40px 70px !important;
+    background-image: none !important;
   }
   @media (max-width: 600px) and (min-width: 350px) {
     padding: 140px 30px 80px !important;
@@ -64,7 +68,7 @@ export const InfoContainer = styled.div`
 
 export const PersonName = styled.span`
   font-family: "Roboto Mono", monospace;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 5px;
   line-height: 23.04px;
   @media (max-width: 600px) and (min-width: 350px) {
@@ -131,5 +135,24 @@ export const MeAnchorLink = styled.a`
   &:hover {
     color: rgba(255, 255, 255, 1);
     text-shadow: 0 5px 15px #0ab635;
+  }
+`;
+
+export const ScrollUp = styled.a`
+  bottom: 25px;
+  background-color: #00d46a;
+  border-radius: 50%;
+  cursor: pointer;
+ 
+  font-size: 1.8rem;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s ease;
+  &:hover {
   }
 `;
