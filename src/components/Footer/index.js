@@ -38,7 +38,7 @@ function Footer() {
           <TfiTwitterAlt
             color="#1d9bf0"
             style={{
-              fontSize: "25px",
+              fontSize: "45px",
               transition: "all 0.3s ease-in-out",
               padding: "8px",
             }}
@@ -51,7 +51,7 @@ function Footer() {
         >
           <BsGithub
             style={{
-              fontSize: "25px",
+              fontSize: "45px",
               transition: "all 0.3s ease-in-out",
               padding: "8px",
             }}
@@ -65,7 +65,7 @@ function Footer() {
           <BsLinkedin
             color="#0366c3"
             style={{
-              fontSize: "25px",
+              fontSize: "45px",
               transition: "all 0.3s ease-in-out",
               padding: "8px",
             }}
@@ -79,7 +79,7 @@ function Footer() {
           <SiHashnode
             color="#2962ff"
             style={{
-              fontSize: "25px",
+              fontSize: "45px",
               transition: "all 0.3s ease-in-out",
               padding: "8px",
             }}

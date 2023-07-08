@@ -61,14 +61,18 @@ export const NavLinksContainer = styled.ul`
     margin-right: 0px !important;
   }
   @media (max-width: 700px) {
-    background-color: #f1f1f1;
+    right: ${(props) => (props.isMenuActive ? "0px" : "-100vw")};
+
+    opacity: 0.95;
+
+    background-color: ${(props) => (props.isDarkMode ? "#010116" : " #f1f1f1")};
     padding: 0 0 40px;
     display: flex;
     flex-direction: column;
     justify-content: center !important;
     align-items: center;
     position: fixed;
-    right: -100vw;
+
     top: 70.2px;
     height: 100vh;
     width: 100vw;

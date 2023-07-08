@@ -93,6 +93,8 @@ export const BackgroundTitle = styled.h2`
 export const BackgroundSubtile = styled.h4``;
 
 export const Description = styled.p``;
+
+
 export const TechStackContainer = styled.div`
   position: relative;
   color: ${(props) => (props.isDarkMode ? "#f6f6f6" : " #333333")};

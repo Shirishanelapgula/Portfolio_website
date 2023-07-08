@@ -27,7 +27,7 @@ export const CopyRight = styled.p`
   margin: 0;
   font-size: 1rem;
   @media (max-width: 600px) and (min-width: 350px) {
-    font-size: 0.65rem !important;
+    font-size: 0.70rem !important;
   }
   @media (max-width: 349px) {
     font-size: 0.5rem !important;

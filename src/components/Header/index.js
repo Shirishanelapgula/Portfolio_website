@@ -45,7 +45,7 @@ function Header() {
             )}
           </a>
         </LogoContainer>
-        <NavLinksContainer isDarkMode={isDarkMode}>
+        <NavLinksContainer isDarkMode={isDarkMode} isMenuActive={isMenuActive}>
           <NavLink>
             <a href="#about">ABOUT</a>
           </NavLink>

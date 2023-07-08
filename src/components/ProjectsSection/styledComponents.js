@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const ProjectsSectionContainer = styled.section`
-  background-color: ${(props) => (props.isDarkMode ? "#010116" : "#f1f1f1")};
+  background-color: ${(props) => (props.isDarkMode ? "#010149" : "#f1f1f1")};
   color: ${(props) => (props.isDarkMode ? "#f6f6f6" : "#333")};
   position: relative;
   padding: 60px 0;

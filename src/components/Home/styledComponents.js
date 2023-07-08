@@ -31,7 +31,7 @@ export const HeroSection = styled.section`
   @media (max-width: 349px) {
     padding: 70px 25px 50px !important;
   }
-  &::after {
+  /* &::after {
     content: "";
 
     position: absolute;
@@ -44,7 +44,7 @@ export const HeroSection = styled.section`
     background-size: contain;
     width: 85%;
     height: 100%;
-  }
+  } */
 `;
 
 export const InfoContainer = styled.div`

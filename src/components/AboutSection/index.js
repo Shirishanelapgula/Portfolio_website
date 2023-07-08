@@ -49,99 +49,14 @@ function AboutSection() {
           </Description>
           <Description>
             I'm passionate about Open Source Software (OSS) with active
-            participation in FOSS communities like
-            <a
-              href="https://communitypro.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Community Pro
-            </a>
-            ,
-            <a
-              href="https://aviyel.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Aviyel
-            </a>
-            ,
-            <a
-              href="https://chryz-hub.github.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Chryz Hub
-            </a>
-            ,
-            <a
-              href="https://eddiehub.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Eddie Hub
-            </a>
-            and
-            <a
-              href="https://designandcode.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Design &amp; Code Community
-            </a>
-            .
+            participation in FOSS communities like Community Pro , Aviyel ,
+            Chryz Hub , Eddie Hub and Design &amp; Code Community .
           </Description>
           <Description>
             Currently, I'm exploring the Blockchain Web3 space and belong to
             some exciting Decentralized Autonomous Organizations (DAOs) -
-            <a
-              href="https://developerdao.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              DeveloperDAO
-            </a>
-            ,
-            <a
-              href="https://scribedao.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ScribeDAO
-            </a>
-            ,
-            <a
-              href="https://learnweb3.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LearnWeb3DAO
-            </a>
-            ,
-            <a
-              href="https://odysseydao.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              OdysseyDAO
-            </a>
-            ,
-            <a
-              href="https://forum.ethernautdao.github.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              EthernautDAO
-            </a>
-            ,
-            <a
-              href="https://webxdao.github.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              WebXDAO
-            </a>
-            ; to name but a few.
+            DeveloperDAO , ScribeDAO , LearnWeb3DAO , OdysseyDAO , EthernautDAO
+            , WebXDAO ; to name but a few.
           </Description>
         </Background>
       </AboutContainer>
