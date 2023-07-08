@@ -38,25 +38,28 @@ function AboutSection() {
           <BackgroundTitle>Background</BackgroundTitle>
           <BackgroundSubtile>A bit About Me</BackgroundSubtile>
           <Description>
-            I'm a self-taught web developer and visual designer with experience
-            in designing new features from ideation to production,
-            implementation of wireframes and design flows into high performance
-            software applications.
+            I'm a full-stack developer with a passion for using technology to
+            solve real-world problems. I learned full stack development from
+            Nxtwave, a leading software training institute in India.
           </Description>
           <Description>
-            I take into consideration search engine optimization, accessibility
-            and user experience while writing reusable and efficient code.
+            During my training at Nxtwave, I gained a strong understanding of
+            both front-end and back-end technologies, including HTML, CSS,
+            Bootstrap, JavaScript, React.js, Node.js, Express.js, and SQLite. I
+            also have experience with a variety of other technologies, such as
+            Git, and GitHub.
           </Description>
           <Description>
-            I'm passionate about Open Source Software (OSS) with active
-            participation in FOSS communities like Community Pro , Aviyel ,
-            Chryz Hub , Eddie Hub and Design &amp; Code Community .
+            I'm a highly motivated and results-oriented individual. I'm always
+            willing to go the extra mile to get the job done, and I'm always
+            looking for ways to improve my skills and knowledge. I'm also a team
+            player and I'm able to work effectively with others to achieve
+            common goals.
           </Description>
           <Description>
-            Currently, I'm exploring the Blockchain Web3 space and belong to
-            some exciting Decentralized Autonomous Organizations (DAOs) -
-            DeveloperDAO , ScribeDAO , LearnWeb3DAO , OdysseyDAO , EthernautDAO
-            , WebXDAO ; to name but a few.
+            I'm excited to Being as a full-stack developer, and I'm confident
+            that I can make a significant contribution to your's success. I'm
+            also open to learning new technologies and taking on new challenges.
           </Description>
         </Background>
       </AboutContainer>

@@ -55,6 +55,7 @@ export const ProjectText = styled.div`
     font-size: 0.7rem;
     margin: 10px 0;
     line-height: 1.4;
+    text-transform: capitalize;
   }
   @media (max-width: 908px) {
     top: 12px !important;

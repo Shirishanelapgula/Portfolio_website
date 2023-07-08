@@ -47,7 +47,8 @@ const myProjectsList = [
     id: uuidv4(),
     category: "FOODDELIVERY",
     title: "Food Munch",
-    description: "Food Munch Developed a responsive website for Food Store where users can see a list of food items, detailed information about a food item, offers",
+    description:
+      "Food Munch Developed a responsive website for Food Store where users can see a list of food items, detailed information about a food item, offers",
     tags: ["HTML", "CSS", "Bootstrap"],
     links: {
       github: "https://github.com/vijaypotnuru/Food-Much",
@@ -58,68 +59,30 @@ const myProjectsList = [
   },
   {
     id: uuidv4(),
-    category: "Software",
-    title: "Project 14545465",
-    description: "This is a project",
-    tags: ["React", "Redux", "Firebase"],
+    category: "PRODUCTIVITY",
+    title: "Money Manager",
+    description:
+      "A money management tool for managing income and daily expenses",
+    tags: ["HTML", "CSS", "Javascript", "React"],
     links: {
-      github: "https://github.com",
-      live: "https://durgainstashare.ccbp.tech/",
+      github: "https://github.com/vijaypotnuru/Money-Manager",
+      live: "https://durgamoneymager.ccbp.tech/",
     },
     projectImage:
-      "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://res.cloudinary.com/dmlhm8dwi/image/upload/v1688840044/FireShot_Capture_001_-_Money_Manager_-_durgamoneymager.ccbp.tech_nwxex3.png",
   },
   {
     id: uuidv4(),
     category: "Software",
-    title: "Project 14545465",
-    description: "This is a project",
-    tags: ["React", "Redux", "Firebase"],
+    title: "IPL Dashboard",
+    description: "IPL DashBoard for to see all team's match details",
+    tags: ["HTML", "CSS", "Javascript", "React"],
     links: {
-      github: "https://github.com",
-      live: "https://durgainstashare.ccbp.tech/",
+      github: "https://github.com/vijaypotnuru/IPL-Dashboard-App",
+      live: "https://durgaiplapp.ccbp.tech/",
     },
     projectImage:
-      "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: uuidv4(),
-    category: "Software",
-    title: "Project 14545465",
-    description: "This is a project",
-    tags: ["React", "Redux", "Firebase"],
-    links: {
-      github: "https://github.com",
-      live: "https://durgainstashare.ccbp.tech/",
-    },
-    projectImage:
-      "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: uuidv4(),
-    category: "Software",
-    title: "Project 14545465",
-    description: "This is a project",
-    tags: ["React", "Redux", "Firebase"],
-    links: {
-      github: "https://github.com",
-      live: "https://durgainstashare.ccbp.tech/",
-    },
-    projectImage:
-      "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: uuidv4(),
-    category: "Software",
-    title: "Project 14545465",
-    description: "This is a project",
-    tags: ["React", "Redux", "Firebase"],
-    links: {
-      github: "https://github.com",
-      live: "https://durgainstashare.ccbp.tech/",
-    },
-    projectImage:
-      "https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://res.cloudinary.com/dmlhm8dwi/image/upload/v1688841123/FireShot_Capture_002_-_IPL_Dashboard_App_-_durgaiplapp.ccbp.tech_dessgs.png",
   },
 ];
 
