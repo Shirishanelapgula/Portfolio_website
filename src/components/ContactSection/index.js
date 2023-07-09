@@ -90,7 +90,7 @@ function ContactSection() {
           <InputField
             id="email"
             type="email"
-            name="email"
+            name="user_email"
             required
             isDarkMode={isDarkMode}
           />
