@@ -59,7 +59,7 @@ function ContactSection() {
         <FormText>
           <Title>Get In Touch</Title>
           <TitleSubNote>
-            Do you have a project and/or want to have a chat?
+            Do you want to have a chat?
             <br />
             Feel free to send me a message, I will definitely reply.
           </TitleSubNote>

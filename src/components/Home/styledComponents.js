@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const MainContainer = styled.main`
-  background-color: ${(props) => (props.isDarkMode ? "#0a0a1f" : "#2f8ea9")};
+  background-color: ${(props) => (props.isDarkMode ? "#0a0a1f" : "#372fa9")};
   clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
   background-size: 55px 55px;
   height: 100vh;
@@ -17,7 +17,6 @@ export const HeroSection = styled.section`
   align-items: center;
   padding: 0px 80px 0px;
   background-repeat: no-repeat;
-
   background-image: url("https://res.cloudinary.com/dmlhm8dwi/image/upload/v1688822859/dev-ed-wave_zlitla.webp");
   background-position: right;
   height: 100vh;
@@ -52,7 +51,7 @@ export const HeroSection = styled.section`
 `;
 
 export const InfoContainer = styled.div`
-  color: ${(props) => (props.isDarkMode ? "#f6f6f6" : "#333")};
+  color: #f6f6f6;
   transition: all 0.3s ease-in-out;
   @media (max-width: 908px) {
     margin-bottom: 150px !important;
@@ -143,7 +142,7 @@ export const ScrollUp = styled.a`
   background-color: #00d46a;
   border-radius: 50%;
   cursor: pointer;
- 
+
   font-size: 1.8rem;
   position: fixed;
   display: flex;

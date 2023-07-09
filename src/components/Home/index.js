@@ -31,7 +31,7 @@ function Home() {
       <MainContainer isDarkMode={isDarkMode}>
         {/* Hero Section */}
         <HeroSection id="hero">
-          <InfoContainer isDarkMode={isDarkMode}>
+          <InfoContainer>
             <PersonName>Hi, I'm Durga Potnuru👋</PersonName>
             <RoleType>Full Stack Developer</RoleType>
             <RoleNote>

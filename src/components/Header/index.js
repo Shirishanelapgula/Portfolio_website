@@ -4,7 +4,7 @@ import themeContext from "../../themeContext/themeContext";
 import { FiMoon } from "react-icons/fi";
 import { ImSun } from "react-icons/im";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { VscChromeClose } from "react-icons/vsc";
+import { VscChromeClose, VscGithubInverted } from "react-icons/vsc";
 
 import { PiDevToLogoDuotone, PiDevToLogoBold } from "react-icons/pi";
 
@@ -58,8 +58,22 @@ function Header() {
           </NavLink>
           <NavLink>
             <ResumeBtn type="button" isDarkMode={isDarkMode}>
-              <a href="#/" target="_blank" rel="noreferrer">
-                Resume
+              <a
+                href="https://github.com/vijaypotnuru"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <VscGithubInverted
+                  style={{
+                    marginRight: "5px",
+                  }}
+                />{" "}
+                GitHub
               </a>
             </ResumeBtn>
           </NavLink>
