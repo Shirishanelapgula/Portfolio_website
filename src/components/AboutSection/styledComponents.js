@@ -126,7 +126,7 @@ export const Tools = styled.div`
   }
 `;
 
-export const ToolList = styled.div`
+export const ToolList = styled.ul`
   list-style: none;
   padding-top: 10px;
 `;

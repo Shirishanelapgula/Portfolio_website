@@ -57,7 +57,7 @@ function Home() {
       <ContactSection />
       {/* Footer */}
       <Footer />
-      <ScrollUp href="#" isDarkMode={isDarkMode}>
+      <ScrollUp aria-label="scroll-up" href="#" isDarkMode={isDarkMode}>
         <MdKeyboardDoubleArrowUp
           style={{
             color: isDarkMode ? "#fff" : "#000",

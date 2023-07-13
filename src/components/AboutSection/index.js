@@ -30,6 +30,7 @@ function AboutSection() {
       <AboutContainer>
         <Photowrapper>
           <MyPhoto
+            alt="my photo"
             loading="lazy"
             src="https://res.cloudinary.com/dmlhm8dwi/image/upload/v1687847887/durgapotnuru.new_cpfol3.png"
           />

@@ -33,7 +33,7 @@ function Header() {
     <WebsiteHeader isDarkMode={isDarkMode}>
       <Nav>
         <LogoContainer>
-          <a href="#hero">
+          <a href="#hero" aria-label="logo ">
             {isDarkMode ? (
               <PiDevToLogoDuotone
                 style={{ color: "white", fontSize: "55px" }}
@@ -79,6 +79,7 @@ function Header() {
           </NavLink>
           {/* Dark Mode Switch */}
           <DarkModeBtn
+            aria-label="darkMode"
             type="button"
             isDarkMode={isDarkMode}
             onClick={onToggleDarkMode}

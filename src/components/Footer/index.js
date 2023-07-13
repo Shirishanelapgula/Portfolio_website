@@ -31,6 +31,7 @@ function Footer() {
       </Email>
       <FooterSocials>
         <a
+          aria-label="twitter"
           href="https://twitter.com/VijayPotnuru005"
           target="_blank"
           rel="noopener noreferrer"
@@ -45,6 +46,7 @@ function Footer() {
           />
         </a>
         <a
+          aria-label="github"
           href="https://github.com/vijaypotnuru"
           target="_blank"
           rel="noopener noreferrer"
@@ -58,6 +60,7 @@ function Footer() {
           />
         </a>
         <a
+          aria-label="linkedin"
           href="https://www.linkedin.com/in/durga-potnuru"
           target="_blank"
           rel="noopener noreferrer"
@@ -72,6 +75,7 @@ function Footer() {
           />
         </a>
         <a
+          aria-label="hashnode"
           href="https://hashnode.com/@vijaypotnuru"
           target="_blank"
           rel="noopener noreferrer"
@@ -89,6 +93,7 @@ function Footer() {
       <CopyRight>
         Copyright 2023 ©{" "}
         <a
+          aria-label="bio.link"
           href="https://bio.link/durga_potnuru"
           target="_blank"
           rel="noopener noreferrer"

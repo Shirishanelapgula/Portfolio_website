@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProjectCardContainer = styled.div`
+export const ProjectCardContainer = styled.li`
   flex-grow: 1;
   border-radius: 5px;
   color: #f2f2f2;
