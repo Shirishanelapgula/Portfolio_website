@@ -17,7 +17,7 @@ export const HeroSection = styled.section`
   align-items: center;
   padding: 0px 80px 0px;
   background-repeat: no-repeat;
-  background-image: url("https://res.cloudinary.com/dmlhm8dwi/image/upload/v1688822859/dev-ed-wave_zlitla.webp");
+  background-image: url("https://images.pexels.com/photos/5935787/pexels-photo-5935787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: right;
   height: 100vh;
 

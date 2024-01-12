@@ -32,35 +32,51 @@ function AboutSection() {
           <MyPhoto
             alt="my photo"
             loading="lazy"
-            src="https://res.cloudinary.com/dmlhm8dwi/image/upload/v1687847887/durgapotnuru.new_cpfol3.png"
+            src="https://res.cloudinary.com/dzdcjchdc/image/upload/v1705051133/IMG_20221204_2053463_uougus.jpg"
           />
         </Photowrapper>
         <Background isDarkMode={isDarkMode}>
           <BackgroundTitle>Background</BackgroundTitle>
           <BackgroundSubtile>A bit About Me</BackgroundSubtile>
           <Description>
-            I'm a full-stack developer with a passion for using technology to
-            solve real-world problems. I learned full stack development from
-            Nxtwave, a leading software training institute in India.
+          I am a results-oriented Full Stack Developer with a rich background, 
+          amassing two years of hands-on experience in crafting robust and scalable web applications.
+          My journey began as a Software Engineer at Mindgrep Technologies Pvt Ltd, 
+          where I played a pivotal role in developing innovative solutions. 
+          Following that, I contributed my skills and expertise as a Senior Associate at Wipro, 
+          elevating my capabilities in creating seamless user experiences.
           </Description>
           <Description>
-            During my training at Nxtwave, I gained a strong understanding of
-            both front-end and back-end technologies, including HTML, CSS,
-            Bootstrap, JavaScript, React.js, Node.js, Express.js, and SQLite. I
-            also have experience with a variety of other technologies, such as
-            Git, and GitHub.
+           Mindgrep Technologies Pvt Ltd (Software Engineer):
+           In my tenure at Mindgrep, I actively contributed to the design and implementation of backend systems, 
+           specializing in Python,Node JS for robust server-side applications. 
+           My role involved collaborating with cross-functional teams, 
+           ensuring the delivery of high-quality solutions within deadlines.
           </Description>
           <Description>
-            I'm a highly motivated and results-oriented individual. I'm always
-            willing to go the extra mile to get the job done, and I'm always
-            looking for ways to improve my skills and knowledge. I'm also a team
-            player and I'm able to work effectively with others to achieve
-            common goals.
+           Wipro (Senior Associate):
+           As a Senior Associate at Wipro, 
+           I took on a broader spectrum of responsibilities, 
+           including frontend development using React.js, 
+           and backend development with Node.js. 
+           This experience enhanced my ability to architect and deploy end-to-end solutions, 
+           meeting the diverse needs of clients and stakeholders.
           </Description>
           <Description>
-            I'm excited to Being as a full-stack developer, and I'm confident
-            that I can make a significant contribution to your's success. I'm
-            also open to learning new technologies and taking on new challenges.
+           Led the successful development of a customer portal at Mindgrep, 
+           optimizing user interactions and experiences.
+           Implemented efficient RESTful APIs, contributing to a 25% improvement in application performance.
+          </Description>
+          <Description>
+           During my apprenticeship at NxtWave, I honed my skills further, 
+           exploring cutting-edge technologies and methodologies. 
+           This experience allowed me to stay at the forefront of industry trends, 
+           reinforcing my commitment to continuous learning.
+          </Description>
+          <Description>
+           Eager to bring my comprehensive skill set to a dynamic team, 
+           I am actively seeking opportunities that allow me to contribute to challenging projects, 
+           apply my full stack expertise, and continue my professional growth.
           </Description>
         </Background>
       </AboutContainer>
@@ -217,6 +233,52 @@ function AboutSection() {
               >
                 SOON!
               </sup>
+            </ToolItem>
+            <ToolItem>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
+                style={{
+                  width: "1rem",
+                  marginRight: "0.5rem",
+                }}
+                alt="TypeScript Icon"
+              />
+              TypeScript
+            </ToolItem>
+          </ToolList>
+          <ToolList>
+          <ToolItem>
+              <img
+                src="https://res.cloudinary.com/dzdcjchdc/image/upload/v1705052816/Screenshot_from_2024-01-12_15-16-39_fxqeua.png"
+                style={{
+                  width: "1rem",
+                  marginRight: "0.5rem",
+                }}
+                alt="MochaChai  Icon"
+              />
+              Mocha and Chai
+            </ToolItem>
+            <ToolItem>
+              <img
+                src="https://res.cloudinary.com/dqfmzzr5g/image/upload/v1705053278/m6ct8rz4g2dsiggkpjto.png"
+                style={{
+                  width: "2rem",
+                  marginRight: "0.5rem",
+                }}
+                alt="Postman Icon"
+              />
+              Postman
+            </ToolItem>
+            <ToolItem>
+              <img
+                src="https://res.cloudinary.com/dqfmzzr5g/image/upload/v1705053526/docusaurus_ideilc.svg"
+                style={{
+                  width: "1rem",
+                  marginRight: "0.5rem",
+                }}
+                alt="Docusaurus Icon"
+              />
+              Docusaurus
             </ToolItem>
           </ToolList>
         </Tools>
