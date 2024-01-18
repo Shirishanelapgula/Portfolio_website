@@ -27,10 +27,10 @@ function ContactSection() {
 
     emailjs
       .sendForm(
-        "service_8fy5fyh",
-        "template_203rtv9",
+        "service_hh0ge69",
+        "template_kwb6zp6",
         form.current,
-        "eLDQ1C3dqCVN4cI0S"
+        "_gDaomfGOAsl20sJy"
       )
       .then(
         (result) => {
