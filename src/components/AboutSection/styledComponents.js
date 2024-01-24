@@ -107,7 +107,9 @@ export const TechStackContainer = styled.div`
   animation: slide-right 3s ease-in 1s forwards;
 `;
 
-export const TechStackHeading = styled.h4``;
+export const TechStackHeading = styled.h4`
+  margin-top:15px
+`;
 
 export const Tools = styled.div`
   font-family: "Roboto Mono", monospace;
@@ -145,5 +147,25 @@ export const ToolItem = styled.li`
   }
   @media (max-width: 600px) and (min-width: 350px) {
     font-size: 0.8rem !important;
+  }
+`;
+
+export const Tool = styled.li`
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 3px 40px 3px 0;
+  @media (max-width: 700px) {
+    padding: 0px !important;
+    margin-top: 5px !important;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 600px) and (min-width: 350px) {
+    font-size: 0.8rem !important;
+  }
+  &:hover {
+    color: #00d46a;
+    font-size: 18px;
   }
 `;

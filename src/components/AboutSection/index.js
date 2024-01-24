@@ -21,6 +21,7 @@ import {
   Tools,
   ToolList,
   ToolItem,
+  Tool
 } from "./styledComponents";
 
 function AboutSection() {
@@ -282,7 +283,25 @@ function AboutSection() {
             </ToolItem>
           </ToolList>
         </Tools>
-      </TechStackContainer>
+        <Tools>
+          <TechStackHeading>My Contributions</TechStackHeading>
+          <ToolList>
+            <Tool>
+            <a href="https://github.com/godspeedsystems/gs-node-service/pulls?q=is%3Apr+author%3Ashirisha-godspeed+is%3Aclosed" target="_blank" rel="noopener noreferrer">Core</a>
+            </Tool>
+            </ToolList>
+            <ToolList>
+            <Tool>
+            <a href="https://github.com/godspeedsystems/gs-plugins/pulls?q=is%3Apr+author%3Ashirisha-godspeed+is%3Aclosed" target="_blank" rel="noopener noreferrer">Plugins</a>
+            </Tool>
+            </ToolList>
+            <ToolList>
+            <Tool>
+            <a href="https://github.com/godspeedsystems/gs-documentation/pulls?q=is%3Apr+author%3Ashirisha-godspeed+is%3Aclosed" target="_blank" rel="noopener noreferrer">Documentation</a>
+            </Tool>
+          </ToolList>
+        </Tools>
+      </TechStackContainer>  
     </AboutSectionContainer>
   );
 }

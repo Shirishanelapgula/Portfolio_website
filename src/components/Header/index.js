@@ -54,6 +54,9 @@ function Header() {
             <a href="https://medium.com/@shirishanelapogula/embarking-on-a-journey-unveiling-the-tech-odyssey-3ba897b8440d" target="_blank" rel="noopener noreferrer">BLOG</a>
           </NavLink>
           <NavLink>
+              <a href="https://drive.google.com/file/d/1uXkWAtREF5NWwfC6Z7M8jk91oh8ZqOOy/view?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a>
+          </NavLink>
+          <NavLink>
             <a href="#contact">CONTACT</a>
           </NavLink>
           <NavLink>
